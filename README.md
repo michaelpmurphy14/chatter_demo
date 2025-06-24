@@ -117,9 +117,11 @@ You’ll see:
 
 ### 📄 License
 
-    Specify your license here, e.g. MIT
+### 🧠 Author
 
-
-        [ ] Write a blog post or slide deck for interviews
+#### Michael P. Murphy
+#### 🛡 Aerospace & Defense | ⚙️ Systems Engineering | 🔐 Secure DevOps
+#### 📍 Dallas, TX
+#### 🔗 github.com/michaelpmurphy14
 
  
