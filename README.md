@@ -66,52 +66,53 @@ You’ll see:
 ```
 
 ## 🚀 Next Steps Roadmap
-[ ] Arducam Integration
+- [x] Arducam Integration
 
-  [ ] Install & test driver (v4l2-ctl, OpenCV)
+  * [x] Install & test driver (v4l2-ctl, OpenCV)
   
-  [ ] Add a ROS camera node publishing to /camera/image_raw
+  * [x] Add a ROS camera node publishing to /camera/image_raw
   
-[ ] Basic Vision Node
+- [ ] Basic Vision Node
 
-  [ ] New package vision_demo
+  * [ ] New package vision_demo
   
-  [ ] Subscribe to /camera/image_raw, apply OpenCV processing (e.g. grayscale, edges)
+  * [ ] Subscribe to /camera/image_raw, apply OpenCV processing (e.g. grayscale, edges)
   
-  [ ] Publish results or status topic
+  * [ ] Publish results or status topic
 
-[ ] AWS IoT Core Bridge
+- [ ] AWS IoT Core Bridge
 
-  [ ] Write a ROS node using AWS IoT Python/C++ SDK
+  * [ ] Write a ROS node using AWS IoT Python/C++ SDK
   
-  [ ] Subscribe to vision/status topic, publish JSON over MQTT
+  * [ ] Subscribe to vision/status topic, publish JSON over MQTT
   
-  [ ] Provision certificates on the Nano securely
+  * [ ] Provision certificates on the Nano securely
   
-[ ] Containerize Full Pipeline
-  [ ] Multi‐stage Docker on Nano: camera + vision + MQTT bridge
+- [ ] Containerize Full Pipeline
   
-  [ ] Extend desktop listener container to visualize or log data
+  * [ ] Multi‐stage Docker on Nano: camera + vision + MQTT bridge
   
-  [ ] Add GitHub Actions to build & test Docker images
+  * [ ] Extend desktop listener container to visualize or log data
   
-[ ] Security & Compliance (CMMC 2.0)
+  * [ ] Add GitHub Actions to build & test Docker images
+  
+- [ ] Security & Compliance (CMMC 2.0)
 
-  [ ] Review certificate storage & firewall rules
+  * [ ] Review certificate storage & firewall rules
   
-  [ ] Document architecture & data flows in SECURITY.md
+  * [ ] Document architecture & data flows in SECURITY.md
   
-  [ ] Apply least‐privilege IAM roles for AWS access
+  * [ ] Apply least‐privilege IAM roles for AWS access
   
-[ ] Performance Tuning
+- [ ] Performance Tuning
 
-  [ ] Profile with tegrastats on Nano
+  * [ ] Profile with tegrastats on Nano
   
-  [ ] Optimize vision node; consider TensorRT or DeepStream for ML inference
+  * [ ] Optimize vision node; consider TensorRT or DeepStream for ML inference
   
-[ ] Polish & Showcase
+- [ ] Polish & Showcase
 
-  [ ] Finalize README.md with full architecture diagram & examples
+  * [ ] Finalize README.md with full architecture diagram & examples
 
 
 ### 📄 License
